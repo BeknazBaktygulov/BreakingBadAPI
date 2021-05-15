@@ -1,9 +1,9 @@
 import React from 'react'
-import Spinner from '../../spinner.gif'
+import spinner from '../../spinner.gif'
 
 function Spinner() {
     return (
-                <img src={Spinner}  style={{ width: '200px', margin: 'auto', display: 'block'}}   alt="spinning circle" />
+                <img src={spinner}  style={{ width: '200px', margin: 'auto', display: 'block'}}   alt="spinning circle" />
     )
 }
 
