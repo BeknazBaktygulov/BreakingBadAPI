@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import CharacterGrid from './components/characters/CharacterGrid';
 import Header from './components/Header';
+import Search from './components/ui/Search';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="container">
      <Header />
+     <Search />
      <CharacterGrid items={items} isLoading={isLoading}  />
     </div>
   );
