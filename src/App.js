@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="container">
      <Header />
-     <CharacterGrid isLoading={isLoading} items={items} />
+     <CharacterGrid items={items} isLoading={isLoading}  />
     </div>
   );
 }
